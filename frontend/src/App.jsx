@@ -1,4 +1,5 @@
 import {
+  RedirectToSignIn,
   SignedIn,
   SignedOut,
   SignInButton,
@@ -9,7 +10,7 @@ function App() {
   return (
     <>
       <SignedOut>
-        <SignInButton />
+        <RedirectToSignIn />
       </SignedOut>
       <SignedIn>
         <UserButton />
